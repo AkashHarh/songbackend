@@ -528,7 +528,7 @@ def format_duration(duration_ms):
 def generate_spotify_search_query(emotion: str,lang: str) -> str:
     prompt = f"""
 You are a super creative music explorer.
-Give me only '{lang}' songs. but search in English but so that I get '{lang}' songs.
+Give me only songs of this '{lang}'. but search in English but so that I get only songs of this '{lang}'.
 Example :
 - "90s breakup bengali songs"
 Given the emotion '{emotion}', invent a random, wild, and highly creative Spotify search query.
